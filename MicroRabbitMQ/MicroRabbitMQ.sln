@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{851431D6-9393-42A3-9BF5-E1D0B724072E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Infra.IoC", "RabbitMQ.Infra.IoC\RabbitMQ.Infra.IoC.csproj", "{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "RabbitMQ.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banking", "Banking", "{0A385D10-A603-42B2-A735-B12201714266}"
 EndProject
