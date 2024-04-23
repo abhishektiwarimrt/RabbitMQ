@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices", "MicroServi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8AF4C42A-725A-406E-A865-AAD25C362775}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "MicroRabbit.domain.Core\MicroRabbit.Domain.Core.csproj", "{9CDD9AB9-8825-4146-975A-A3C6ADCCC399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.domain.Core\MicroRabbit.Domain.Core.csproj", "{9CDD9AB9-8825-4146-975A-A3C6ADCCC399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{851431D6-9393-42A3-9BF5-E1D0B724072E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{851431D6-9393-42A3-9BF5-E1D0B724072E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Infra.IoC", "RabbitMQ.Infra.IoC\RabbitMQ.Infra.IoC.csproj", "{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{851431D6-9393-42A3-9BF5-E1D0B724072E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851431D6-9393-42A3-9BF5-E1D0B724072E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851431D6-9393-42A3-9BF5-E1D0B724072E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9CDD9AB9-8825-4146-975A-A3C6ADCCC399} = {BE296E05-CCBF-4BAB-8F41-72F752B8701A}
 		{851431D6-9393-42A3-9BF5-E1D0B724072E} = {8DDAC9F7-078F-4366-B6F1-D7862C0DF9BA}
+		{717CAB2D-ED42-40E6-8CB7-2CFC4F9859CC} = {769F5D0B-96B3-4DD1-B037-43DC918208E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {128A81BA-DAF7-434C-AB8B-226D4EECED6C}
