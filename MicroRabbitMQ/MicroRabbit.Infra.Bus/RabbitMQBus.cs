@@ -9,12 +9,18 @@ using System.Text;
 
 namespace MicroRabbit.Infra.Bus
 {
-    public sealed class RabbitMQBus(IMediator mediator) : IEventBus
+    public sealed class RabbitMQBus : IEventBus
     {
-        private readonly IMediator mediator = mediator;
-        private readonly Dictionary<string, List<Type>> handlers = new Dictionary<string, List<Type>>();
-        private readonly List<Type> eventTypes = new();
+        private readonly IMediator mediator;
+        private readonly Dictionary<string, List<Type>> handlers;
+        private readonly List<Type> eventTypes;
 
+        public RabbitMQBus(IMediator mediator)
+        {
+            this.mediator = mediator;
+            handlers = new Dictionary<string, List<Type>>();
+            eventTypes = new();
+        }
         public Task SendCommand<T>(T command) where T : Command
         {
             return mediator.Send(command);
