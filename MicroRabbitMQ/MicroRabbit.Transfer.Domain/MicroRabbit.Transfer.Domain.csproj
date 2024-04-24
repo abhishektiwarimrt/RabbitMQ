@@ -10,4 +10,13 @@
     <PackageReference Include="MediatR" Version="12.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRabbit.domain.Core\MicroRabbit.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>
